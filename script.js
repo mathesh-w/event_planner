@@ -10,7 +10,7 @@ menu.addEventListener('click', () => {
 
 /* this register page */
 
-var form = document.getElementById('register-form').addEventListener('submit', (event) => {
+document.getElementById('register-form').addEventListener('submit', (event) => {
     event.preventDefault();
 
     const email = document.getElementById("email").value;
