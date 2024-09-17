@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    background: rgb(255,255,255);
+background: linear-gradient(160deg, #F3F8FF, #222831);
+background-repeat: no-repeat;
+height: 100vh;
+}
+.form-box {
+     max-width: 300px;
+     background-color: #fff;
+     border-radius: 16px;
+     color: #010101;
+     margin: 15% auto;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 32px  24px 24px;
+    gap: 16px;
+    text-align: center;
+}
+
+/* Form text */
+.title {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.name {
+    color: teal;
+    font-weight: bolder;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Inputs box */
+.input {
+    background: none;
+    border: 0;
+    outline: 0;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    font-size: .9rem;
+    padding: 8px 15px;
+}
+
+.form-section {
+    padding: 16px;
+    font-size: .85rem;
+    text-align: center;
+    border-radius: 0 0 16px 16px;
+    background-color: #e0ecfb;
+    transition: color .3s ease;
+}
+
+.form-section > a:hover {
+    color: #005ce6;
+    text-decoration: underline;
+}
+
+/* Button */ 
+.form > button {
+    background-color: #0066ff;
+    color: #fff;
+    border: 0;
+    border-radius: 24px;
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.form button:hover {
+    background-color: #005ce6;
+}

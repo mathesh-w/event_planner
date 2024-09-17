@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="images/event planner favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="media_query.css" />
+
+  <!--Google fonts cdn-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+    
+<!-- Fontawesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Event Planner</title>
+</head>
+
+<body>
+
+  <!--Nav bar-->
+  <nav>
+    <div class="logo">
+      <h1>Event Planner</h1>
+    </div>
+
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Services</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+
+    <div class="menu">
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+    </div>
+  </nav>
+
+  <!--Home page-->
+  <section class="home" id="home">
+    <div class="home-container">
+
+      <div class="home-text">
+        <h2>
+          Creating Moments, Crafting Memories
+        </h2>
+        <h4>
+          At <span>Event Planner</span>, we turn your ideas into unforgettable events. Whether it's a wedding, corporate
+          meeting, or a special celebration, we handle all the details so you can enjoy the moment.
+        </h4>
+        <button class="btn" onclick="location.href='#service' ">Learn More</button>
+      </div>
+  
+      <div class="home-img">
+        <img src="images/home img.jpg" alt="">
+      </div>
+    </div>
+  
+  </section>
+
+  <!--About page-->
+  <section class="about" id="about">
+    <h1 class="top-text" style="margin-bottom: 1rem;">About Us</h1>
+    <div class="about-container">
+
+      <div class="about-content">
+        <h4>We are a passionate team of event enthusiasts with a deep love for bringing people together. With years of
+          experience in event management, our team has successfully organized everything from intimate gatherings to
+          large-scale events. Our diverse backgrounds allow us to deliver unique, personalized experiences that align
+          with your vision and budget.</h4>
+        <div class="btn-div">
+          <button>Book Our Services</button>
+        </div>
+      </div>
+
+      <div class="about-img">
+        <img src="images/about us img.jpg" alt="">
+      </div>
+      
+    </div>
+  </section>
+
+  <!--Services starts-->
+  <section class="service" id="service">
+    <h1 class="top-text">Our Services</h1>
+    <br>
+    <br>
+
+    <div class="service-container">
+      <div>
+        <img src="images/wedding service.jpg" alt="Weddings">
+        <h4>Weddings</h4>
+        <ul>
+          <li>
+            <h5>✅Classic Wedding</h5>
+          </li>
+          <li>
+            <h5>✅Destination Weddings</h5>
+          </li>
+          <li>
+            <h5>✅Themed Weddings</h5>
+          </li>
+        </ul>
+        <button class="booknow-btn">Book Now</button>
+      </div>
+
+      <div>
+        <img src="images/conference service.jpg" alt="Corporate Events">
+        <h4>Corporate Events</h4>
+        <ul>
+          <li>
+            <h5>✅Conferences</h5>
+          </li>
+          <li>
+            <h5>✅Seminars and Workshops</h5>
+          </li>
+          <li>
+            <h5>✅Product Launches</h5>
+          </li>
+        </ul>
+        <button class="booknow-btn">Book Now</button>
+      </div>
+
+      <div>
+        <img src="images/birthday service.jpg" alt="Social Events">
+        <h4>Social Events</h4>
+        <ul>
+          <li>
+            <h5>✅Birthday Parties</h5>
+          </li>
+          <li>
+            <h5>✅Anniversaries</h5>
+          </li>
+          <li>
+            <h5>✅Family Reunions</h5>
+          </li>
+        </ul>
+        <button class="booknow-btn">Book Now</button>
+      </div>
+
+      <div>
+        <img src="images/sports service.jpg" alt="Sports and Recreational Events">
+        <h4>Sports and Recreational Events</h4>
+        <ul>
+          <li>
+            <h5>✅ Charity Runs/Walks</h5>
+          </li>
+          <li>
+            <h5>✅ Sports Tournaments</h5>
+          </li>
+          <li>
+            <h5>✅ Outdoor Adventures</h5>
+          </li>
+        </ul>
+        <button class="booknow-btn">Book Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!--Contact page-->
+  <section class="contact" id="contact">
+    <div class="contact-container">
+
+      <div class="contact-us-text">
+        <h3>Contact Us</h3>
+        <p>Need to get in touch with us? fill the form with your inquiry.</p>
+      </div>
+
+      <div class="contact-us-form">
+        <form action="" method="post">
+          <h4>Name*</h4>
+          <input type="text" name="" required>
+          <h4>Email*</h4>
+          <input type="text" name="" required>
+          <h4>Message*</h4>
+          <textarea name="" required></textarea>
+          <br>
+          <div>
+            <button type="submit">submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="footer-img">
+        <a href="#home"><img src="images/event planner favicon.png" alt="footer-icon"></a>
+      </div>
+
+      <div class="terms">
+        <h4>Copyrights &copy; 2024 Mathesh</h4>
+      </div>
+
+      <div class="social">
+        <h3>Follow Us</h3>
+        <div class="icon">
+          <a href="" target="_blank"> <i class="fa-brands fa-facebook "></i> </a>
+          <a href="" target="_blank"> <i class="fa-brands fa-square-instagram "></i> </a>
+          <a href="" target="_blank"> <i class="fa-brands fa-square-x-twitter "></i> </a>
+          <a href="" target="_blank"> <i class="fa-brands fa-youtube "></i> </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

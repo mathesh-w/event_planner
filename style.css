@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    transition: .5s;
+    scroll-behavior: smooth;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Nav bar */
+nav {
+    background-color: #F5F5F5;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav>ul>li {
+    display: inline-block;
+    padding: 1.5rem 0;
+    font-size: 1.25rem;
+}
+
+nav>ul>li>a:hover {
+    background-color: #295F98;
+    color: white;
+}
+
+nav>ul>li>a {
+    padding: 1.5rem .7rem;
+    color: #295F98;
+    font-weight: 400;
+}
+
+
+.logo {
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+    color: #FFB200;
+}
+
+.logo>h1 {
+    font-weight: bold;
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+.menu-line {
+    height: 2.5px;
+    width: 25px;
+    background-color: black;
+    margin-bottom: 7px;
+}
+
+.menu {
+    cursor: pointer;
+    display: none;
+}
+
+.showmenu {
+    display: block;
+}
+
+/* Home page */
+
+.home {
+    padding: 2rem;
+}
+
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+ .home-text{
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 500xp;
+   padding: 20px;
+}
+
+.home-text > h2 {
+    color: #009FBD;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.home-text > h4 {
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+.home-text > .btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #FF7777;
+    border: none;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.home-text > .btn:hover {
+    background-color: #F9E79F; 
+    color: #3B2F2F;
+}
+
+.home-img{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.home-img > img {
+    max-width: 50%;
+    border-radius: 10px;
+} 
+
+.home-text > h4 > span {
+    color: #FFB200;
+    font-weight: 700;
+}
+
+/* Services page */
+
+.service {
+   margin-top: 1rem;
+   padding: 2rem;
+   background-color: #F7F5EB;
+}
+.top-text {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #3C4048;
+}
+
+.service > .service-container > div > img {
+    width: 300px;
+}
+
+.service > .service-container > div {
+    margin: 1.5rem;
+}
+
+.service-container > div > ul {
+    list-style: square;
+}
+
+.service-container > div > h4 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #6EACDA;
+}
+
+.service-container > div > ul > li > h5 {
+    color: #424242;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.booknow-btn {
+    padding: 8px 24px;
+    font-weight: 400;
+    background-color: #635985;
+    border: #635985;
+    margin-top: 15px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.booknow-btn:hover {
+    cursor: pointer;
+    color: #FFF;
+    transform: translateY(-2px); 
+}
+
+
+/* About page */
+
+.about {
+    margin: 1rem 0;
+    padding: 4rem;
+    background-color: #FFF7F7;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(600px, 1fr));
+    align-items: center;
+    justify-content: center;
+    grid-gap: 40px;
+    padding: 2rem;
+}
+
+.about-content {
+    min-width: 300px;
+    padding: 1rem;
+}
+
+
+.about-content > h4 {
+    color: #3b3a49;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.btn-div {
+    text-align: center;
+}
+
+.about-content > .btn-div > button {
+    margin: 25px 0;
+    padding: 12px 24px;
+    background-color: #FFF7D4;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #4C3D3D;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.about-content > .btn-div > button:hover {
+    background-color: #F9E79F;
+    color: #3B2F2F;
+    transform: translateY(-2px); 
+}
+
+
+.about-img {
+    width: 100%;
+    text-align: center;
+}
+
+.about-img > img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px 60px 30px;
+}
+
+.about-img > img:hover {
+    transform: translateX(30px);
+    transition: ease-in-out 0.3s;
+}
+
+
+/* Contact page */
+
+.contact {
+    padding: 3rem;
+    margin-top: 1rem;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-us-text {
+    font-weight: 500;
+    align-self: flex-start;
+}
+
+.contact-us-text > h3 {
+    font-size: 2.7rem;
+    color: #5AB2FF;
+}
+
+.contact-us-text > p {
+    color: #33372C;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 35vw;
+    line-height: 1.5;
+}
+
+.contact-us-form {
+   background-color: whitesmoke;
+   padding: 20px;
+   border-radius: 10px;
+   width: 35vw;
+}
+form > h4 {
+    color: #3C3D37;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+form > input, form > textarea {
+    margin-bottom: 15px;
+    padding: 12px ;
+    border-radius: 5px;
+    border:solid 1px #5AB2FF;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+form > input:focus, form > textarea:focus{
+    outline: 0;
+    box-shadow: 0 0 5px rgba(90, 178, 255, 0.7);
+}
+
+form > div {
+    text-align: center;
+}
+
+form > div > button {
+    padding: 12px 24px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #5AB2FF;
+    font-size: 1.2rem;
+}
+
+form > div > button:hover {
+    color: white;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.terms > h4 {
+    font-size: 1.3rem;
+}
+
+.footer-img > a > img {
+    width: 40px;
+    border-radius: 8px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social > h3 {
+    margin-bottom: 10px;
+}
+.social > .icon > a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #3a3a56;
+}
+
+.social > .icon > a:hover{
+     color: #727288;
+     transition: 0s;
+}
