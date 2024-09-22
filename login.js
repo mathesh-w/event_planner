@@ -5,6 +5,7 @@ document.getElementById('form').addEventListener('submit', function (event) {
     const storedEmail = localStorage.getItem('email');
     const storedPassword = localStorage.getItem('password');
 
+    // getting data from the local storage
     const enteredEmail = document.getElementById("email").value.toLowerCase();
     const enteredPassword = document.getElementById("password").value;
 

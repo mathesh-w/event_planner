@@ -1,7 +1,7 @@
 document.getElementById('form').addEventListener('submit', function(event) {
      event.preventDefault()// Prevents form submission and page reload
 
-    // Getting data form 
+    // Getting data from the form
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
